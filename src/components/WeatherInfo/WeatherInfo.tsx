@@ -89,7 +89,7 @@ export function WeatherInfo({ props, onChangeCity }: WeatherInfoProps) {
           </Col>
           <Col span={24}>
             {!empty ? (
-              <Card className="grid-info-weather" bordered={false}>
+              <Card className="grid-info-weather" title={'Weather Info'}>
                 <Card.Grid
                   className="grid-principal-info-weather"
                   hoverable={false}

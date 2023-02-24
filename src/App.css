@@ -1,6 +1,21 @@
+.container {
+  background-color: white;
+  margin: 50px;
+  transition-duration: 0.5s;
+  transition-property: all;
+}
+
 div#map {
   height: 700px;
-  border-radius: 8px;
+}
+
+.ant-card {
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  border-radius: 0px;
+}
+
+.ant-select-selector {
+  border-radius:0px !important;
 }
 
 .map-card .ant-card-body {
@@ -12,7 +27,9 @@ div#map {
 }
 
 .info-card {
-  min-height: 700px;
+  /* min-height: 700px; */
+  transition-duration: 0.5s;
+  transition-property: all;
 }
 
 .grid-info-weather .ant-card-body .ant-card-grid {
@@ -33,6 +50,9 @@ div#map {
 }
 
 @media (max-width: 768px) {
+  .container {
+    margin: 10px;
+  }
   .info-card {
     min-height: 100px;
   }

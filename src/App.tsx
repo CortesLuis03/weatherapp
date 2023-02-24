@@ -10,7 +10,7 @@ function App() {
   const [currentInfo, setCurrentInfo] = useState<WeatherProps>(EMPTY_CURRENT_INFO);
   return (
     <>
-      <Layout style={{backgroundColor: 'White', margin: 12 }}>
+      <Layout className="container">
         <Row gutter={[24,24]}>
           <Col xs={{ order: 2, span: 24 }} md={{ order: 1, span: 10 }}>
             <GoogleMaps props={currentInfo}></GoogleMaps>
