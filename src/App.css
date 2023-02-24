@@ -19,6 +19,7 @@ div#map {
   width: 50%;
   display: flex;
   align-items: center;
+  padding: 15px;
 }
 
 .grid-info-weather .ant-card-body .ant-card-grid .ant-card-meta {
