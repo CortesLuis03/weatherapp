@@ -1,0 +1,34 @@
+div#map {
+  height: 500px;
+  border-radius: 8px;
+}
+
+.map-card .ant-card-body {
+  padding: 0px;
+}
+
+.grid-info-weather {
+  box-shadow: none;
+}
+
+.info-card {
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.grid-info-weather .ant-card-body .ant-card-grid {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.grid-info-weather .ant-card-body .ant-card-grid .ant-card-meta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-principal-info-weather {
+  width: 100% !important;
+}

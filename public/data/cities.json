@@ -1,0 +1,221 @@
+{
+	"rows":
+	[
+		{
+			"id": 1,
+			"name": "New York",
+			"country": "United States",
+			"lat": 40.71280,
+			"lng": -74.00600,
+			"created_at": "2023-02-17 14:39:08",
+			"updated_at": "2023-02-17 14:39:08"
+		},
+		{
+			"id": 2,
+			"name": "London",
+			"country": "United Kingdom",
+			"lat": 51.50720,
+			"lng": -0.12750,
+			"created_at": "2023-02-17 14:39:08",
+			"updated_at": "2023-02-17 14:39:08"
+		},
+		{
+			"id": 3,
+			"name": "Tokyo",
+			"country": "Japan",
+			"lat": 35.68950,
+			"lng": 139.69170,
+			"created_at": "2023-02-17 14:39:08",
+			"updated_at": "2023-02-17 14:39:08"
+		},
+		{
+			"id": 4,
+			"name": "Shanghai",
+			"country": "China",
+			"lat": 31.23040,
+			"lng": 121.47370,
+			"created_at": "2023-02-17 14:39:08",
+			"updated_at": "2023-02-17 14:39:08"
+		},
+		{
+			"id": 5,
+			"name": "Mexico City",
+			"country": "Mexico",
+			"lat": 19.43260,
+			"lng": -99.13320,
+			"created_at": "2023-02-17 14:39:08",
+			"updated_at": "2023-02-17 14:39:08"
+		},
+		{
+			"id": 6,
+			"name": "Osaka",
+			"country": "Japan",
+			"lat": 34.69370,
+			"lng": 135.50220,
+			"created_at": "2023-02-17 14:39:08",
+			"updated_at": "2023-02-17 14:39:08"
+		},
+		{
+			"id": 7,
+			"name": "Los Angeles",
+			"country": "United States",
+			"lat": 34.05220,
+			"lng": -118.24370,
+			"created_at": "2023-02-17 14:39:08",
+			"updated_at": "2023-02-17 14:39:08"
+		},
+		{
+			"id": 8,
+			"name": "Rio de Janeiro",
+			"country": "Brazil",
+			"lat": -22.91110,
+			"lng": -43.17290,
+			"created_at": "2023-02-17 14:39:08",
+			"updated_at": "2023-02-17 14:39:08"
+		},
+		{
+			"id": 9,
+			"name": "Istanbul",
+			"country": "Turkey",
+			"lat": 41.01000,
+			"lng": 28.96020,
+			"created_at": "2023-02-17 14:39:08",
+			"updated_at": "2023-02-17 14:39:08"
+		},
+		{
+			"id": 10,
+			"name": "Roma",
+			"country": "Italy",
+			"lat": 41.90280,
+			"lng": 12.49640,
+			"created_at": "2023-02-17 14:39:08",
+			"updated_at": "2023-02-17 14:39:08"
+		},
+		{
+			"id": 11,
+			"name": "Moscow",
+			"country": "Russia",
+			"lat": 55.75580,
+			"lng": 37.61730,
+			"created_at": "2023-02-17 14:39:08",
+			"updated_at": "2023-02-17 14:39:08"
+		},
+		{
+			"id": 12,
+			"name": "Kiev",
+			"country": "Ukraine",
+			"lat": 50.45010,
+			"lng": 30.52340,
+			"created_at": "2023-02-17 14:39:08",
+			"updated_at": "2023-02-17 14:39:08"
+		},
+		{
+			"id": 13,
+			"name": "Berlin",
+			"country": "Germany",
+			"lat": 52.52000,
+			"lng": 13.40490,
+			"created_at": "2023-02-17 14:39:08",
+			"updated_at": "2023-02-17 14:39:08"
+		},
+		{
+			"id": 14,
+			"name": "Cali",
+			"country": "Colombia",
+			"lat": 3.44000,
+			"lng": -76.51970,
+			"created_at": "2023-02-17 14:39:08",
+			"updated_at": "2023-02-17 14:39:08"
+		},
+		{
+			"id": 15,
+			"name": "Bogota",
+			"country": "Colombia",
+			"lat": 4.60971,
+			"lng": -74.08170,
+			"created_at": "2023-02-17 14:39:08",
+			"updated_at": "2023-02-17 14:39:08"
+		},
+		{
+			"id": 16,
+			"name": "Miami",
+			"country": "United States",
+			"lat": 25.78330,
+			"lng": -80.21660,
+			"created_at": "2023-02-17 14:39:08",
+			"updated_at": "2023-02-17 14:39:08"
+		},
+		{
+			"id": 17,
+			"name": "Orlando",
+			"country": "United States",
+			"lat": 28.53360,
+			"lng": -81.38660,
+			"created_at": "2023-02-17 14:39:08",
+			"updated_at": "2023-02-17 14:39:08"
+		},
+		{
+			"id": 18,
+			"name": "Medellin",
+			"country": "Colombia",
+			"lat": 6.24475,
+			"lng": -75.57480,
+			"created_at": "2023-02-17 14:39:08",
+			"updated_at": "2023-02-17 14:39:08"
+		},
+		{
+			"id": 19,
+			"name": "Santa Fe",
+			"country": "United States",
+			"lat": 35.66660,
+			"lng": -105.96660,
+			"created_at": "2023-02-17 14:39:08",
+			"updated_at": "2023-02-17 14:39:08"
+		},
+		{
+			"id": 20,
+			"name": "Barranquilla",
+			"country": "Colombia",
+			"lat": 10.98330,
+			"lng": -74.80190,
+			"created_at": "2023-02-17 14:39:08",
+			"updated_at": "2023-02-17 14:39:08"
+		},
+		{
+			"id": 21,
+			"name": "Barcelona",
+			"country": "Spain",
+			"lat": 41.38250,
+			"lng": 2.17690,
+			"created_at": "2023-02-17 14:39:08",
+			"updated_at": "2023-02-17 14:39:08"
+		},
+		{
+			"id": 22,
+			"name": "Madrid",
+			"country": "Spain",
+			"lat": 40.41690,
+			"lng": -3.70330,
+			"created_at": "2023-02-17 14:39:08",
+			"updated_at": "2023-02-17 14:39:08"
+		},
+		{
+			"id": 23,
+			"name": "Las Palmas",
+			"country": "Spain",
+			"lat": 28.12720,
+			"lng": -15.43130,
+			"created_at": "2023-02-17 14:39:08",
+			"updated_at": "2023-02-17 14:39:08"
+		},
+		{
+			"id": 24,
+			"name": "Paris",
+			"country": "France",
+			"lat": 48.85660,
+			"lng": 2.35220,
+			"created_at": "2023-02-17 14:39:08",
+			"updated_at": "2023-02-17 14:39:08"
+		}
+	]
+}
