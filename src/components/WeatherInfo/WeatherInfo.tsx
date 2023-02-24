@@ -1,6 +1,16 @@
 import { CitieJson, WeatherInfoProps } from "./types";
 import getWeather from "@/services/apiServices";
-import { Card, Col, Empty, Image, Row, Select, Typography } from "antd";
+import {
+  Card,
+  Col,
+  Empty,
+  Image,
+  Row,
+  Select,
+  Skeleton,
+  Spin,
+  Typography,
+} from "antd";
 import { useEffect, useState } from "react";
 import { Position } from "@/types";
 import styles from "./WeatherInfo.scss";
@@ -11,8 +21,8 @@ const { Text, Paragraph } = Typography;
 
 export function WeatherInfo({ props, onChangeCity }: WeatherInfoProps) {
   const [cities, setCities] = useState([{ value: "", label: "" }]);
-  const [weatherImageSrc, setWeatherImageSrc] = useState<string>("");
   const [empty, setEmpty] = useState<Boolean>(true);
+  const [loading, setLoading] = useState<Boolean>(true);
   useEffect(() => {
     fetch("/data/cities.json", {
       headers: {
@@ -35,7 +45,7 @@ export function WeatherInfo({ props, onChangeCity }: WeatherInfoProps) {
       });
   }, []);
 
-  const onSelectCity = (value: string) => {
+  const onSelectCity = async (value: string) => {
     const valueData = value.split("|");
     const position: Position = {
       center: {
@@ -48,6 +58,9 @@ export function WeatherInfo({ props, onChangeCity }: WeatherInfoProps) {
       onChangeCity({ position: position, weather: res });
     });
     setEmpty(false);
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000);
   };
 
   const {
@@ -85,11 +98,14 @@ export function WeatherInfo({ props, onChangeCity }: WeatherInfoProps) {
                   .localeCompare((optionB?.label ?? "").toLowerCase())
               }
               onChange={onSelectCity}
+              onSelect={(e) => {
+                console.log();
+              }}
             />
           </Col>
           <Col span={24}>
-            {!empty ? (
-              <Card className="grid-info-weather" title={'Weather Info'}>
+            {!empty && !loading ? (
+              <Card className="grid-info-weather" title={"Weather Info"}>
                 <Card.Grid
                   className="grid-principal-info-weather"
                   hoverable={false}
@@ -208,8 +224,10 @@ export function WeatherInfo({ props, onChangeCity }: WeatherInfoProps) {
                   />
                 </Card.Grid>
               </Card>
-            ) : (
+            ) : empty ? (
               <Empty></Empty>
+            ) : (
+              <Skeleton active avatar></Skeleton>
             )}
           </Col>
         </Row>
