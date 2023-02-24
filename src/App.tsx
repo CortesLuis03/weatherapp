@@ -10,12 +10,12 @@ function App() {
   const [currentInfo, setCurrentInfo] = useState<WeatherProps>(EMPTY_CURRENT_INFO);
   return (
     <>
-      <Layout style={{ marginTop: 24, backgroundColor: 'White' }}>
-        <Row gutter={[24, 24]}>
-          <Col xs={{ order: 2, span: 24 }} md={{ order: 1, span: 12 }}>
+      <Layout style={{backgroundColor: 'White', margin: 12 }}>
+        <Row gutter={[24,24]}>
+          <Col xs={{ order: 2, span: 24 }} md={{ order: 1, span: 10 }}>
             <GoogleMaps props={currentInfo}></GoogleMaps>
           </Col>
-          <Col xs={{ order: 1, span: 24 }} md={{ order: 2, span: 12 }}>
+          <Col xs={{ order: 1, span: 24 }} md={{ order: 2, span: 14 }}>
             <WeatherInfo props={currentInfo} onChangeCity={(info)=>setCurrentInfo(info)}></WeatherInfo>
           </Col>
         </Row>

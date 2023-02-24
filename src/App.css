@@ -1,5 +1,5 @@
 div#map {
-  height: 500px;
+  height: 700px;
   border-radius: 8px;
 }
 
@@ -12,7 +12,7 @@ div#map {
 }
 
 .info-card {
-  min-height: 500px;
+  min-height: 700px;
 }
 
 .grid-info-weather .ant-card-body .ant-card-grid {
@@ -29,4 +29,10 @@ div#map {
 
 .grid-principal-info-weather {
   width: 100% !important;
+}
+
+@media (max-width: 768px) {
+  .info-card {
+    min-height: 100px;
+  }
 }
