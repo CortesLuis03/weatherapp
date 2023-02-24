@@ -13,8 +13,6 @@ div#map {
 
 .info-card {
   min-height: 500px;
-  display: flex;
-  align-items: center;
 }
 
 .grid-info-weather .ant-card-body .ant-card-grid {
